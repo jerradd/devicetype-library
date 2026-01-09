@@ -1,0 +1,302 @@
+---
+manufacturer: Eaton
+model: EVMA8365X
+part_number: EVMA8365X
+u_height: 0
+is_full_depth: false
+weight: 12.79
+weight_unit: kg
+slug: evma8365x
+airflow: passive
+exclude_from_utilization: true
+description: Eaton 3-Phase Managed Rack PDU G4, 208V, 42 Outlets, 40A, 14.4kW, CS8365 Input, 10 ft. Cord, 0U Vertical
+comments: |
+  ### Eaton 3-Phase Managed Rack PDU G4
+
+  * [Brochure](https://assets.tripplite.com/brochure/eaton-rack-pdu-g4-brochure.pdf)
+  * [Datasheet](https://assets.tripplite.com/product-pdfs/en/evma8365x.pdf)
+  * [CAD drawing](https://assets.tripplite.com/cad-drawing/eaton-rack-pdu-g4-evma8365x-drawing.pdf)
+interfaces:
+  - name: PDU+1
+    type: other
+    mgmt_only: true
+    label: PDU+1
+    description: Daisy Chain port
+  - name: SENSOR
+    type: other
+    label: SENSOR
+    description: Environmental sensors
+  - name: 0
+    label: 0
+    type: 1000base-t
+    mgmt_only: true
+  - name: 1
+    label: 1
+    type: 1000base-t
+    mgmt_only: true
+  - name: USB/1
+    type: other
+    mgmt_only: true
+    description: Use this USB-C port to provide a emulated Ethernet connection to a computer with a terminal emulation program
+console-ports:
+  - name: USB/0
+    type: usb-c
+    label: Console
+    description: Use this port to provide a direct terminal connection to a computer with a terminal emulation program
+power-ports:
+  - name: Power Port 1
+    type: cs8365c
+    maximum_draw: 14400
+power-outlets:
+  - name: A1
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section A Yellow
+    feed_leg: A
+    color: ffeb3b
+  - name: A2
+    type: eaton-c39
+    power_port: Power Port 1
+    description: Section A Yellow
+    feed_leg: A
+    color: ffeb3b
+  - name: A3
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section A Yellow
+    feed_leg: A
+    color: ffeb3b
+  - name: A4
+    type: eaton-c39
+    power_port: Power Port 1
+    description: Section A Yellow
+    feed_leg: A
+    color: ffeb3b
+  - name: A5
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section A Yellow
+    feed_leg: A
+    color: ffeb3b
+  - name: A6
+    type: eaton-c39
+    power_port: Power Port 1
+    description: Section A Yellow
+    feed_leg: A
+    color: ffeb3b
+  - name: A7
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section A Yellow
+    feed_leg: A
+    color: ffeb3b
+  - name: B8
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section B Blue
+    feed_leg: B
+    color: 2196f3
+  - name: B9
+    type: eaton-c39
+    power_port: Power Port 1
+    description: Section B Blue
+    feed_leg: B
+    color: 2196f3
+  - name: B10
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section B Blue
+    feed_leg: B
+    color: 2196f3
+  - name: B11
+    type: eaton-c39
+    power_port: Power Port 1
+    description: Section B Blue
+    feed_leg: B
+    color: 2196f3
+  - name: B12
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section B Blue
+    feed_leg: B
+    color: 2196f3
+  - name: B13
+    type: eaton-c39
+    power_port: Power Port 1
+    description: Section B Blue
+    feed_leg: B
+    color: 2196f3
+  - name: B14
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section B Blue
+    feed_leg: B
+    color: 2196f3
+  - name: C15
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section C Orange
+    feed_leg: C
+    color: ff9800
+  - name: C16
+    type: eaton-c39
+    power_port: Power Port 1
+    description: Section C Orange
+    feed_leg: C
+    color: ff9800
+  - name: C17
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section C Orange
+    feed_leg: C
+    color: ff9800
+  - name: C18
+    type: eaton-c39
+    power_port: Power Port 1
+    description: Section C Orange
+    feed_leg: C
+    color: ff9800
+  - name: C19
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section C Orange
+    feed_leg: C
+    color: ff9800
+  - name: C20
+    type: eaton-c39
+    power_port: Power Port 1
+    description: Section C Orange
+    feed_leg: C
+    color: ff9800
+  - name: C21
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section C Orange
+    feed_leg: C
+    color: ff9800
+  - name: D22
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section D Yellow
+    feed_leg: A
+    color: ffeb3b
+  - name: D23
+    type: eaton-c39
+    power_port: Power Port 1
+    description: Section D Yellow
+    feed_leg: A
+    color: ffeb3b
+  - name: D24
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section D Yellow
+    feed_leg: A
+    color: ffeb3b
+  - name: D25
+    type: eaton-c39
+    power_port: Power Port 1
+    description: Section D Yellow
+    feed_leg: A
+    color: ffeb3b
+  - name: D26
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section D Yellow
+    feed_leg: A
+    color: ffeb3b
+  - name: D27
+    type: eaton-c39
+    power_port: Power Port 1
+    description: Section D Yellow
+    feed_leg: A
+    color: ffeb3b
+  - name: D28
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section D Yellow
+    feed_leg: A
+    color: ffeb3b
+  - name: E29
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section E Blue
+    feed_leg: B
+    color: 2196 2196f3f3
+  - name: E30
+    type: eaton-c39
+    power_port: Power Port 1
+    description: Section E Blue
+    feed_leg: B
+    color: 2196f3
+  - name: E31
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section E Blue
+    feed_leg: B
+    color: 2196f3
+  - name: E32
+    type: eaton-c39
+    power_port: Power Port 1
+    description: Section E Blue
+    feed_leg: B
+    color: 2196f3
+  - name: E33
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section E Blue
+    feed_leg: B
+    color: 2196f3
+  - name: E34
+    type: eaton-c39
+    power_port: Power Port 1
+    description: Section E Blue
+    feed_leg: B
+    color: 2196f3
+  - name: E35
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section E Blue
+    feed_leg: B
+    color: 2196f3
+  - name: F36
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section F Orange
+    feed_leg: C
+    color: ff9800
+  - name: F37
+    type: eaton-c39
+    power_port: Power Port 1
+    description: Section F Orange
+    feed_leg: C
+    color: ff9800
+  - name: F38
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section F Orange
+    feed_leg: C
+    color: ff9800
+  - name: F39
+    type: eaton-c39
+    power_port: Power Port 1
+    description: Section F Orange
+    feed_leg: C
+    color: ff9800
+  - name: F40
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section F Orange
+    feed_leg: C
+    color: ff9800
+  - name: F41
+    type: eaton-c39
+    power_port: Power Port 1
+    description: Section F Orange
+    feed_leg: C
+    color: ff9800
+  - name: F42
+    type: iec-60320-c13
+    power_port: Power Port 1
+    description: Section F Orange
+    feed_leg: C
+    color: ff9800
